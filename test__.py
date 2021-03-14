@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv(("/Users/wolfsinem/downloads/Kopie van Verkiezingen 2021 - Blad1.csv"))
+df = pd.read_csv(("/Users/wolfsinem/tweedekamerverkiezingen/Kopie van Verkiezingen 2021 - Blad1.csv"))
 df.rename(columns={"Unnamed: 0": "Standpunten"}, inplace=True)
 
 new_df = df

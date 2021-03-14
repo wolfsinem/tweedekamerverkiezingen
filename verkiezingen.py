@@ -4,7 +4,7 @@ import seaborn as sns
 
 import matplotlib.pyplot as plt
 
-def load_dataset(filepath="/Users/wolfsinem/downloads/Kopie van Verkiezingen 2021 - Blad1.csv"):
+def load_dataset(filepath="/Users/wolfsinem/tweedekamerverkiezingen/Kopie van Verkiezingen 2021 - Blad1.csv"):
     """Load the dataset 
 
     Returns:
